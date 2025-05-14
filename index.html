@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Online Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer="defer"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div id="logo-section">
+            <img src="img\logo.webp" alt="Website Logo" id="logo" />
+            <h1>My Online Shop</h1>
+        </div>
+        <ul id="nav">
+            <li><a href="#vision-mission">Vision & Mission</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about-owner">About Owner</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Vision & Mission Section -->
+    <div id="vision-mission">
+        <h2>Our Vision</h2>
+        <p>To be the most trusted online shopping platform for quality products and exceptional customer service.</p>
+        <h2>Our Mission</h2>
+        <p>Delivering value to customers through a wide variety of products and a seamless shopping experience.</p>
+    </div>
+
+    <!-- Categories Section -->
+    <div id="categories">
+        <h2>Our Categories</h2>
+        <div class="category-grid">
+            <div class="category">
+                <img src="img\pc.jfif" alt="Personal Computers" />
+                <h3>Personal Computers</h3>
+                <button onclick="showCategory('pc')">View Products</button>
+            </div>
+            <div class="category">
+                <img src="img\smart.jfif" alt="Smart Phones" />
+                <h3>Smart Phones</h3>
+                <button onclick="showCategory('smartphones')">View Products</button>
+            </div>
+            <div class="category">
+                <img src="img/hardware.jfif" alt="Hardware Accessories" />
+                <h3>Hardware Accessories</h3>
+                <button onclick="showCategory('hardware')">View Products</button>
+            </div>
+            <div class="category">
+                <img src="img/aplication.jfif" alt="Application Software" />
+                <h3>Application Software</h3>
+                <button onclick="showCategory('appsoftware')">View Products</button>
+            </div>
+         
+        </div>
+    </div>
+
+    <!-- About Owner Section -->
+    <div id="about-owner">
+        <h2>About the Owner</h2>
+        <p>Hello! I am [Your Name], a passionate entrepreneur dedicated to creating a reliable and user-friendly online shopping experience for everyone. With a background in web development and e-commerce, I strive to bring innovation and excellence to the digital marketplace.</p>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div id="contact-us">
+   
+        <h2>Contact Us</h2>
+        <form action="#" method="post" onsubmit="return validateForm();">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" />
+
+            <label for="Password">Password:</label>
+            <input type="password" id="password" name="password" />
+          
+            <button type="submit">Submit</button>
+        </form>
+  
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <p>&copy; 2024 My Online Shop. All rights reserved.</p>
+    </div>
+
+    <script src="main.js.js"></script>
+</body>
+</html>
